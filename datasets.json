@@ -1,0 +1,1670 @@
+{
+    "sub-292": {
+        "ses-preop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-292/ses-preop/func\\sub-292_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-292/ses-preop/func\\sub-292_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-292/ses-preop/func\\sub-292_ses-preop_task-rest_run-01_desc-confounds_regressors.tsv",
+                "TR": 2
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-292/ses-preop/func\\sub-292_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-292/ses-preop/func\\sub-292_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-292/ses-preop/func\\sub-292_ses-preop_task-rest_run-02_desc-confounds_regressors.tsv",
+                "TR": 2
+            }
+        },
+        "ses-postop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-292/ses-postop/func\\sub-292_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-292/ses-postop/func\\sub-292_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-292/ses-postop/func\\sub-292_ses-postop_task-es_run-01_desc-confounds_regressors.tsv",
+                "TR": 3.1
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-292/ses-postop/func\\sub-292_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-292/ses-postop/func\\sub-292_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-292/ses-postop/func\\sub-292_ses-postop_task-es_run-02_desc-confounds_regressors.tsv",
+                "TR": 3.1
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-292/ses-postop/func\\sub-292_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-292/ses-postop/func\\sub-292_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-292/ses-postop/func\\sub-292_ses-postop_task-es_run-03_desc-confounds_regressors.tsv",
+                "TR": 3.1
+            },
+            "run-04": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-292/ses-postop/func\\sub-292_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-292/ses-postop/func\\sub-292_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-292/ses-postop/func\\sub-292_ses-postop_task-es_run-04_desc-confounds_regressors.tsv",
+                "TR": 3.1
+            },
+            "run-05": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-292/ses-postop/func\\sub-292_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-292/ses-postop/func\\sub-292_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-292/ses-postop/func\\sub-292_ses-postop_task-es_run-05_desc-confounds_regressors.tsv",
+                "TR": 3.1
+            }
+        }
+    },
+    "sub-294": {
+        "ses-preop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-294/ses-preop/func\\sub-294_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-294/ses-preop/func\\sub-294_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-294/ses-preop/func\\sub-294_ses-preop_task-rest_run-01_desc-confounds_regressors.tsv",
+                "TR": 2
+            }
+        },
+        "ses-postop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-294/ses-postop/func\\sub-294_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-294/ses-postop/func\\sub-294_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-294/ses-postop/func\\sub-294_ses-postop_task-es_run-01_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-294/ses-postop/func\\sub-294_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-294/ses-postop/func\\sub-294_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-294/ses-postop/func\\sub-294_ses-postop_task-es_run-02_desc-confounds_regressors.tsv",
+                "TR": 3
+            }
+        }
+    },
+    "sub-302": {
+        "ses-preop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-302/ses-preop/func\\sub-302_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-302/ses-preop/func\\sub-302_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-302/ses-preop/func\\sub-302_ses-preop_task-rest_run-01_desc-confounds_regressors.tsv",
+                "TR": 2
+            }
+        },
+        "ses-postop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-302/ses-postop/func\\sub-302_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-302/ses-postop/func\\sub-302_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-302/ses-postop/func\\sub-302_ses-postop_task-es_run-01_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-302/ses-postop/func\\sub-302_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-302/ses-postop/func\\sub-302_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-302/ses-postop/func\\sub-302_ses-postop_task-es_run-02_desc-confounds_regressors.tsv",
+                "TR": 3
+            }
+        }
+    },
+    "sub-303": {
+        "ses-preop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-preop/func\\sub-303_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-preop/func\\sub-303_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-preop/func\\sub-303_ses-preop_task-rest_run-01_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-preop/func\\sub-303_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-preop/func\\sub-303_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-preop/func\\sub-303_ses-preop_task-rest_run-02_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-preop/func\\sub-303_ses-preop_task-rest_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-preop/func\\sub-303_ses-preop_task-rest_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-preop/func\\sub-303_ses-preop_task-rest_run-03_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-04": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-preop/func\\sub-303_ses-preop_task-rest_run-04_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-preop/func\\sub-303_ses-preop_task-rest_run-04_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-preop/func\\sub-303_ses-preop_task-rest_run-04_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-05": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-preop/func\\sub-303_ses-preop_task-rest_run-05_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-preop/func\\sub-303_ses-preop_task-rest_run-05_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-preop/func\\sub-303_ses-preop_task-rest_run-05_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            }
+        },
+        "ses-postop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-postop/func\\sub-303_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-postop/func\\sub-303_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-postop/func\\sub-303_ses-postop_task-es_run-01_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-postop/func\\sub-303_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-postop/func\\sub-303_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-postop/func\\sub-303_ses-postop_task-es_run-02_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-postop/func\\sub-303_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-postop/func\\sub-303_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-postop/func\\sub-303_ses-postop_task-es_run-03_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-04": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-postop/func\\sub-303_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-postop/func\\sub-303_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-postop/func\\sub-303_ses-postop_task-es_run-04_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-05": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-postop/func\\sub-303_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-postop/func\\sub-303_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-postop/func\\sub-303_ses-postop_task-es_run-05_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-06": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-postop/func\\sub-303_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-postop/func\\sub-303_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-postop/func\\sub-303_ses-postop_task-es_run-06_desc-confounds_regressors.tsv",
+                "TR": 3
+            }
+        }
+    },
+    "sub-307": {
+        "ses-preop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-preop/func\\sub-307_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-preop/func\\sub-307_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-preop/func\\sub-307_ses-preop_task-rest_run-01_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-preop/func\\sub-307_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-preop/func\\sub-307_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-preop/func\\sub-307_ses-preop_task-rest_run-02_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-preop/func\\sub-307_ses-preop_task-rest_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-preop/func\\sub-307_ses-preop_task-rest_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-preop/func\\sub-307_ses-preop_task-rest_run-03_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-04": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-preop/func\\sub-307_ses-preop_task-rest_run-04_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-preop/func\\sub-307_ses-preop_task-rest_run-04_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-preop/func\\sub-307_ses-preop_task-rest_run-04_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-05": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-preop/func\\sub-307_ses-preop_task-rest_run-05_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-preop/func\\sub-307_ses-preop_task-rest_run-05_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-preop/func\\sub-307_ses-preop_task-rest_run-05_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            }
+        },
+        "ses-postop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-postop/func\\sub-307_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-postop/func\\sub-307_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-postop/func\\sub-307_ses-postop_task-es_run-01_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-postop/func\\sub-307_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-postop/func\\sub-307_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-postop/func\\sub-307_ses-postop_task-es_run-02_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-postop/func\\sub-307_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-postop/func\\sub-307_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-postop/func\\sub-307_ses-postop_task-es_run-03_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-04": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-postop/func\\sub-307_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-postop/func\\sub-307_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-postop/func\\sub-307_ses-postop_task-es_run-04_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-05": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-postop/func\\sub-307_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-postop/func\\sub-307_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-postop/func\\sub-307_ses-postop_task-es_run-05_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-06": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-postop/func\\sub-307_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-postop/func\\sub-307_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-postop/func\\sub-307_ses-postop_task-es_run-06_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-07": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-postop/func\\sub-307_ses-postop_task-es_run-07_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-postop/func\\sub-307_ses-postop_task-es_run-07_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-postop/func\\sub-307_ses-postop_task-es_run-07_desc-confounds_regressors.tsv",
+                "TR": 3
+            }
+        }
+    },
+    "sub-314": {
+        "ses-preop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-314/ses-preop/func\\sub-314_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-314/ses-preop/func\\sub-314_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-314/ses-preop/func\\sub-314_ses-preop_task-rest_run-01_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-314/ses-preop/func\\sub-314_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-314/ses-preop/func\\sub-314_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-314/ses-preop/func\\sub-314_ses-preop_task-rest_run-02_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-314/ses-preop/func\\sub-314_ses-preop_task-rest_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-314/ses-preop/func\\sub-314_ses-preop_task-rest_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-314/ses-preop/func\\sub-314_ses-preop_task-rest_run-03_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-04": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-314/ses-preop/func\\sub-314_ses-preop_task-rest_run-04_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-314/ses-preop/func\\sub-314_ses-preop_task-rest_run-04_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-314/ses-preop/func\\sub-314_ses-preop_task-rest_run-04_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-05": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-314/ses-preop/func\\sub-314_ses-preop_task-rest_run-05_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-314/ses-preop/func\\sub-314_ses-preop_task-rest_run-05_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-314/ses-preop/func\\sub-314_ses-preop_task-rest_run-05_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            }
+        },
+        "ses-postop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-314/ses-postop/func\\sub-314_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-314/ses-postop/func\\sub-314_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-314/ses-postop/func\\sub-314_ses-postop_task-es_run-01_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-314/ses-postop/func\\sub-314_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-314/ses-postop/func\\sub-314_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-314/ses-postop/func\\sub-314_ses-postop_task-es_run-02_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-314/ses-postop/func\\sub-314_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-314/ses-postop/func\\sub-314_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-314/ses-postop/func\\sub-314_ses-postop_task-es_run-03_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-04": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-314/ses-postop/func\\sub-314_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-314/ses-postop/func\\sub-314_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-314/ses-postop/func\\sub-314_ses-postop_task-es_run-04_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-05": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-314/ses-postop/func\\sub-314_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-314/ses-postop/func\\sub-314_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-314/ses-postop/func\\sub-314_ses-postop_task-es_run-05_desc-confounds_regressors.tsv",
+                "TR": 3
+            }
+        }
+    },
+    "sub-316": {
+        "ses-preop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-preop/func\\sub-316_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-preop/func\\sub-316_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-preop/func\\sub-316_ses-preop_task-rest_run-01_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-preop/func\\sub-316_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-preop/func\\sub-316_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-preop/func\\sub-316_ses-preop_task-rest_run-02_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-preop/func\\sub-316_ses-preop_task-rest_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-preop/func\\sub-316_ses-preop_task-rest_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-preop/func\\sub-316_ses-preop_task-rest_run-03_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-04": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-preop/func\\sub-316_ses-preop_task-rest_run-04_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-preop/func\\sub-316_ses-preop_task-rest_run-04_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-preop/func\\sub-316_ses-preop_task-rest_run-04_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-05": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-preop/func\\sub-316_ses-preop_task-rest_run-05_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-preop/func\\sub-316_ses-preop_task-rest_run-05_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-preop/func\\sub-316_ses-preop_task-rest_run-05_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            }
+        },
+        "ses-postop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-postop/func\\sub-316_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-postop/func\\sub-316_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-postop/func\\sub-316_ses-postop_task-es_run-01_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-postop/func\\sub-316_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-postop/func\\sub-316_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-postop/func\\sub-316_ses-postop_task-es_run-02_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-postop/func\\sub-316_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-postop/func\\sub-316_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-postop/func\\sub-316_ses-postop_task-es_run-03_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-04": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-postop/func\\sub-316_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-postop/func\\sub-316_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-postop/func\\sub-316_ses-postop_task-es_run-04_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-05": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-postop/func\\sub-316_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-postop/func\\sub-316_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-postop/func\\sub-316_ses-postop_task-es_run-05_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-06": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-postop/func\\sub-316_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-postop/func\\sub-316_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-postop/func\\sub-316_ses-postop_task-es_run-06_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-07": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-postop/func\\sub-316_ses-postop_task-es_run-07_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-postop/func\\sub-316_ses-postop_task-es_run-07_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-postop/func\\sub-316_ses-postop_task-es_run-07_desc-confounds_regressors.tsv",
+                "TR": 3
+            }
+        }
+    },
+    "sub-320": {
+        "ses-preop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-320/ses-preop/func\\sub-320_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-320/ses-preop/func\\sub-320_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-320/ses-preop/func\\sub-320_ses-preop_task-rest_run-01_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-320/ses-preop/func\\sub-320_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-320/ses-preop/func\\sub-320_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-320/ses-preop/func\\sub-320_ses-preop_task-rest_run-02_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-320/ses-preop/func\\sub-320_ses-preop_task-rest_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-320/ses-preop/func\\sub-320_ses-preop_task-rest_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-320/ses-preop/func\\sub-320_ses-preop_task-rest_run-03_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-04": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-320/ses-preop/func\\sub-320_ses-preop_task-rest_run-04_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-320/ses-preop/func\\sub-320_ses-preop_task-rest_run-04_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-320/ses-preop/func\\sub-320_ses-preop_task-rest_run-04_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-05": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-320/ses-preop/func\\sub-320_ses-preop_task-rest_run-05_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-320/ses-preop/func\\sub-320_ses-preop_task-rest_run-05_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-320/ses-preop/func\\sub-320_ses-preop_task-rest_run-05_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            }
+        },
+        "ses-postop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-320/ses-postop/func\\sub-320_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-320/ses-postop/func\\sub-320_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-320/ses-postop/func\\sub-320_ses-postop_task-es_run-01_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-320/ses-postop/func\\sub-320_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-320/ses-postop/func\\sub-320_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-320/ses-postop/func\\sub-320_ses-postop_task-es_run-02_desc-confounds_regressors.tsv",
+                "TR": 2.5
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-320/ses-postop/func\\sub-320_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-320/ses-postop/func\\sub-320_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-320/ses-postop/func\\sub-320_ses-postop_task-es_run-03_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-04": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-320/ses-postop/func\\sub-320_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-320/ses-postop/func\\sub-320_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-320/ses-postop/func\\sub-320_ses-postop_task-es_run-04_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-05": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-320/ses-postop/func\\sub-320_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-320/ses-postop/func\\sub-320_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-320/ses-postop/func\\sub-320_ses-postop_task-es_run-05_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-06": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-320/ses-postop/func\\sub-320_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-320/ses-postop/func\\sub-320_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-320/ses-postop/func\\sub-320_ses-postop_task-es_run-06_desc-confounds_regressors.tsv",
+                "TR": 3
+            }
+        }
+    },
+    "sub-330": {
+        "ses-preop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-preop/func\\sub-330_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-preop/func\\sub-330_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-preop/func\\sub-330_ses-preop_task-rest_run-01_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-preop/func\\sub-330_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-preop/func\\sub-330_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-preop/func\\sub-330_ses-preop_task-rest_run-02_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-preop/func\\sub-330_ses-preop_task-rest_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-preop/func\\sub-330_ses-preop_task-rest_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-preop/func\\sub-330_ses-preop_task-rest_run-03_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-04": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-preop/func\\sub-330_ses-preop_task-rest_run-04_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-preop/func\\sub-330_ses-preop_task-rest_run-04_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-preop/func\\sub-330_ses-preop_task-rest_run-04_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-05": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-preop/func\\sub-330_ses-preop_task-rest_run-05_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-preop/func\\sub-330_ses-preop_task-rest_run-05_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-preop/func\\sub-330_ses-preop_task-rest_run-05_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            }
+        },
+        "ses-postop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-postop/func\\sub-330_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-postop/func\\sub-330_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-postop/func\\sub-330_ses-postop_task-es_run-01_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-postop/func\\sub-330_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-postop/func\\sub-330_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-postop/func\\sub-330_ses-postop_task-es_run-02_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-postop/func\\sub-330_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-postop/func\\sub-330_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-postop/func\\sub-330_ses-postop_task-es_run-03_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-04": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-postop/func\\sub-330_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-postop/func\\sub-330_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-postop/func\\sub-330_ses-postop_task-es_run-04_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-05": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-postop/func\\sub-330_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-postop/func\\sub-330_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-postop/func\\sub-330_ses-postop_task-es_run-05_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-06": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-postop/func\\sub-330_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-postop/func\\sub-330_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-postop/func\\sub-330_ses-postop_task-es_run-06_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-07": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-postop/func\\sub-330_ses-postop_task-es_run-07_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-postop/func\\sub-330_ses-postop_task-es_run-07_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-postop/func\\sub-330_ses-postop_task-es_run-07_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-08": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-postop/func\\sub-330_ses-postop_task-es_run-08_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-postop/func\\sub-330_ses-postop_task-es_run-08_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-postop/func\\sub-330_ses-postop_task-es_run-08_desc-confounds_regressors.tsv",
+                "TR": 3
+            }
+        }
+    },
+    "sub-331": {
+        "ses-preop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-preop/func\\sub-331_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-preop/func\\sub-331_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-preop/func\\sub-331_ses-preop_task-rest_run-01_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-preop/func\\sub-331_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-preop/func\\sub-331_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-preop/func\\sub-331_ses-preop_task-rest_run-02_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-preop/func\\sub-331_ses-preop_task-rest_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-preop/func\\sub-331_ses-preop_task-rest_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-preop/func\\sub-331_ses-preop_task-rest_run-03_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-04": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-preop/func\\sub-331_ses-preop_task-rest_run-04_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-preop/func\\sub-331_ses-preop_task-rest_run-04_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-preop/func\\sub-331_ses-preop_task-rest_run-04_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            }
+        },
+        "ses-postop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-postop/func\\sub-331_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-postop/func\\sub-331_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-postop/func\\sub-331_ses-postop_task-es_run-01_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-postop/func\\sub-331_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-postop/func\\sub-331_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-postop/func\\sub-331_ses-postop_task-es_run-02_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-postop/func\\sub-331_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-postop/func\\sub-331_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-postop/func\\sub-331_ses-postop_task-es_run-03_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-04": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-postop/func\\sub-331_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-postop/func\\sub-331_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-postop/func\\sub-331_ses-postop_task-es_run-04_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-05": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-postop/func\\sub-331_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-postop/func\\sub-331_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-postop/func\\sub-331_ses-postop_task-es_run-05_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-06": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-postop/func\\sub-331_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-postop/func\\sub-331_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-postop/func\\sub-331_ses-postop_task-es_run-06_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-07": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-postop/func\\sub-331_ses-postop_task-es_run-07_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-postop/func\\sub-331_ses-postop_task-es_run-07_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-postop/func\\sub-331_ses-postop_task-es_run-07_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-08": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-postop/func\\sub-331_ses-postop_task-es_run-08_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-postop/func\\sub-331_ses-postop_task-es_run-08_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-postop/func\\sub-331_ses-postop_task-es_run-08_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-09": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-postop/func\\sub-331_ses-postop_task-es_run-09_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-postop/func\\sub-331_ses-postop_task-es_run-09_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-postop/func\\sub-331_ses-postop_task-es_run-09_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-10": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-postop/func\\sub-331_ses-postop_task-es_run-10_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-postop/func\\sub-331_ses-postop_task-es_run-10_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-postop/func\\sub-331_ses-postop_task-es_run-10_desc-confounds_regressors.tsv",
+                "TR": 3
+            }
+        }
+    },
+    "sub-334": {
+        "ses-preop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-preop/func\\sub-334_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-preop/func\\sub-334_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-preop/func\\sub-334_ses-preop_task-rest_run-01_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-preop/func\\sub-334_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-preop/func\\sub-334_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-preop/func\\sub-334_ses-preop_task-rest_run-02_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-preop/func\\sub-334_ses-preop_task-rest_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-preop/func\\sub-334_ses-preop_task-rest_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-preop/func\\sub-334_ses-preop_task-rest_run-03_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-04": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-preop/func\\sub-334_ses-preop_task-rest_run-04_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-preop/func\\sub-334_ses-preop_task-rest_run-04_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-preop/func\\sub-334_ses-preop_task-rest_run-04_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-05": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-preop/func\\sub-334_ses-preop_task-rest_run-05_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-preop/func\\sub-334_ses-preop_task-rest_run-05_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-preop/func\\sub-334_ses-preop_task-rest_run-05_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            }
+        },
+        "ses-postop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-postop/func\\sub-334_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-postop/func\\sub-334_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-postop/func\\sub-334_ses-postop_task-es_run-01_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-postop/func\\sub-334_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-postop/func\\sub-334_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-postop/func\\sub-334_ses-postop_task-es_run-02_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-postop/func\\sub-334_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-postop/func\\sub-334_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-postop/func\\sub-334_ses-postop_task-es_run-03_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-04": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-postop/func\\sub-334_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-postop/func\\sub-334_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-postop/func\\sub-334_ses-postop_task-es_run-04_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-05": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-postop/func\\sub-334_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-postop/func\\sub-334_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-postop/func\\sub-334_ses-postop_task-es_run-05_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-06": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-postop/func\\sub-334_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-postop/func\\sub-334_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-postop/func\\sub-334_ses-postop_task-es_run-06_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-07": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-postop/func\\sub-334_ses-postop_task-es_run-07_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-postop/func\\sub-334_ses-postop_task-es_run-07_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-postop/func\\sub-334_ses-postop_task-es_run-07_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-08": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-postop/func\\sub-334_ses-postop_task-es_run-08_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-postop/func\\sub-334_ses-postop_task-es_run-08_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-postop/func\\sub-334_ses-postop_task-es_run-08_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-09": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-postop/func\\sub-334_ses-postop_task-es_run-09_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-postop/func\\sub-334_ses-postop_task-es_run-09_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-postop/func\\sub-334_ses-postop_task-es_run-09_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-10": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-postop/func\\sub-334_ses-postop_task-es_run-10_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-postop/func\\sub-334_ses-postop_task-es_run-10_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-postop/func\\sub-334_ses-postop_task-es_run-10_desc-confounds_regressors.tsv",
+                "TR": 3
+            }
+        }
+    },
+    "sub-335": {
+        "ses-preop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-preop/func\\sub-335_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-preop/func\\sub-335_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-preop/func\\sub-335_ses-preop_task-rest_run-01_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-preop/func\\sub-335_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-preop/func\\sub-335_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-preop/func\\sub-335_ses-preop_task-rest_run-02_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-preop/func\\sub-335_ses-preop_task-rest_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-preop/func\\sub-335_ses-preop_task-rest_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-preop/func\\sub-335_ses-preop_task-rest_run-03_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-04": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-preop/func\\sub-335_ses-preop_task-rest_run-04_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-preop/func\\sub-335_ses-preop_task-rest_run-04_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-preop/func\\sub-335_ses-preop_task-rest_run-04_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-05": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-preop/func\\sub-335_ses-preop_task-rest_run-05_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-preop/func\\sub-335_ses-preop_task-rest_run-05_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-preop/func\\sub-335_ses-preop_task-rest_run-05_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            }
+        },
+        "ses-postop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-postop/func\\sub-335_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-postop/func\\sub-335_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-postop/func\\sub-335_ses-postop_task-es_run-01_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-postop/func\\sub-335_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-postop/func\\sub-335_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-postop/func\\sub-335_ses-postop_task-es_run-02_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-postop/func\\sub-335_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-postop/func\\sub-335_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-postop/func\\sub-335_ses-postop_task-es_run-03_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-04": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-postop/func\\sub-335_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-postop/func\\sub-335_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-postop/func\\sub-335_ses-postop_task-es_run-04_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-05": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-postop/func\\sub-335_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-postop/func\\sub-335_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-postop/func\\sub-335_ses-postop_task-es_run-05_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-06": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-postop/func\\sub-335_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-postop/func\\sub-335_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-postop/func\\sub-335_ses-postop_task-es_run-06_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-07": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-postop/func\\sub-335_ses-postop_task-es_run-07_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-postop/func\\sub-335_ses-postop_task-es_run-07_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-postop/func\\sub-335_ses-postop_task-es_run-07_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-08": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-postop/func\\sub-335_ses-postop_task-es_run-08_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-postop/func\\sub-335_ses-postop_task-es_run-08_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-postop/func\\sub-335_ses-postop_task-es_run-08_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-09": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-postop/func\\sub-335_ses-postop_task-es_run-09_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-postop/func\\sub-335_ses-postop_task-es_run-09_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-postop/func\\sub-335_ses-postop_task-es_run-09_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-10": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-postop/func\\sub-335_ses-postop_task-es_run-10_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-postop/func\\sub-335_ses-postop_task-es_run-10_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-postop/func\\sub-335_ses-postop_task-es_run-10_desc-confounds_regressors.tsv",
+                "TR": 3
+            }
+        }
+    },
+    "sub-339": {
+        "ses-preop": {},
+        "ses-postop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-339/ses-postop/func\\sub-339_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-339/ses-postop/func\\sub-339_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-339/ses-postop/func\\sub-339_ses-postop_task-es_run-01_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-339/ses-postop/func\\sub-339_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-339/ses-postop/func\\sub-339_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-339/ses-postop/func\\sub-339_ses-postop_task-es_run-02_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-339/ses-postop/func\\sub-339_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-339/ses-postop/func\\sub-339_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-339/ses-postop/func\\sub-339_ses-postop_task-es_run-03_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-04": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-339/ses-postop/func\\sub-339_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-339/ses-postop/func\\sub-339_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-339/ses-postop/func\\sub-339_ses-postop_task-es_run-04_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-05": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-339/ses-postop/func\\sub-339_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-339/ses-postop/func\\sub-339_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-339/ses-postop/func\\sub-339_ses-postop_task-es_run-05_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-06": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-339/ses-postop/func\\sub-339_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-339/ses-postop/func\\sub-339_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-339/ses-postop/func\\sub-339_ses-postop_task-es_run-06_desc-confounds_regressors.tsv",
+                "TR": 3
+            }
+        }
+    },
+    "sub-352": {
+        "ses-preop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-preop/func\\sub-352_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-preop/func\\sub-352_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-preop/func\\sub-352_ses-preop_task-rest_run-01_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-preop/func\\sub-352_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-preop/func\\sub-352_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-preop/func\\sub-352_ses-preop_task-rest_run-02_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-preop/func\\sub-352_ses-preop_task-rest_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-preop/func\\sub-352_ses-preop_task-rest_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-preop/func\\sub-352_ses-preop_task-rest_run-03_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-04": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-preop/func\\sub-352_ses-preop_task-rest_run-04_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-preop/func\\sub-352_ses-preop_task-rest_run-04_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-preop/func\\sub-352_ses-preop_task-rest_run-04_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-05": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-preop/func\\sub-352_ses-preop_task-rest_run-05_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-preop/func\\sub-352_ses-preop_task-rest_run-05_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-preop/func\\sub-352_ses-preop_task-rest_run-05_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            }
+        },
+        "ses-postop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-postop/func\\sub-352_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-postop/func\\sub-352_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-postop/func\\sub-352_ses-postop_task-es_run-01_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-postop/func\\sub-352_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-postop/func\\sub-352_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-postop/func\\sub-352_ses-postop_task-es_run-02_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-postop/func\\sub-352_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-postop/func\\sub-352_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-postop/func\\sub-352_ses-postop_task-es_run-03_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-04": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-postop/func\\sub-352_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-postop/func\\sub-352_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-postop/func\\sub-352_ses-postop_task-es_run-04_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-05": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-postop/func\\sub-352_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-postop/func\\sub-352_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-postop/func\\sub-352_ses-postop_task-es_run-05_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-06": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-postop/func\\sub-352_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-postop/func\\sub-352_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-postop/func\\sub-352_ses-postop_task-es_run-06_desc-confounds_regressors.tsv",
+                "TR": 8
+            },
+            "run-07": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-postop/func\\sub-352_ses-postop_task-es_run-07_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-postop/func\\sub-352_ses-postop_task-es_run-07_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-postop/func\\sub-352_ses-postop_task-es_run-07_desc-confounds_regressors.tsv",
+                "TR": 8
+            },
+            "run-08": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-postop/func\\sub-352_ses-postop_task-es_run-08_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-postop/func\\sub-352_ses-postop_task-es_run-08_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-postop/func\\sub-352_ses-postop_task-es_run-08_desc-confounds_regressors.tsv",
+                "TR": 8
+            },
+            "run-09": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-postop/func\\sub-352_ses-postop_task-es_run-09_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-postop/func\\sub-352_ses-postop_task-es_run-09_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-postop/func\\sub-352_ses-postop_task-es_run-09_desc-confounds_regressors.tsv",
+                "TR": 8
+            },
+            "run-10": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-postop/func\\sub-352_ses-postop_task-es_run-10_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-postop/func\\sub-352_ses-postop_task-es_run-10_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-postop/func\\sub-352_ses-postop_task-es_run-10_desc-confounds_regressors.tsv",
+                "TR": 8
+            }
+        }
+    },
+    "sub-357": {
+        "ses-preop": {},
+        "ses-postop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-357/ses-postop/func\\sub-357_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-357/ses-postop/func\\sub-357_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-357/ses-postop/func\\sub-357_ses-postop_task-es_run-01_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-357/ses-postop/func\\sub-357_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-357/ses-postop/func\\sub-357_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-357/ses-postop/func\\sub-357_ses-postop_task-es_run-02_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-357/ses-postop/func\\sub-357_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-357/ses-postop/func\\sub-357_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-357/ses-postop/func\\sub-357_ses-postop_task-es_run-03_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-04": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-357/ses-postop/func\\sub-357_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-357/ses-postop/func\\sub-357_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-357/ses-postop/func\\sub-357_ses-postop_task-es_run-04_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-05": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-357/ses-postop/func\\sub-357_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-357/ses-postop/func\\sub-357_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-357/ses-postop/func\\sub-357_ses-postop_task-es_run-05_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-06": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-357/ses-postop/func\\sub-357_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-357/ses-postop/func\\sub-357_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-357/ses-postop/func\\sub-357_ses-postop_task-es_run-06_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-07": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-357/ses-postop/func\\sub-357_ses-postop_task-es_run-07_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-357/ses-postop/func\\sub-357_ses-postop_task-es_run-07_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-357/ses-postop/func\\sub-357_ses-postop_task-es_run-07_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-08": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-357/ses-postop/func\\sub-357_ses-postop_task-es_run-08_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-357/ses-postop/func\\sub-357_ses-postop_task-es_run-08_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-357/ses-postop/func\\sub-357_ses-postop_task-es_run-08_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-09": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-357/ses-postop/func\\sub-357_ses-postop_task-es_run-09_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-357/ses-postop/func\\sub-357_ses-postop_task-es_run-09_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-357/ses-postop/func\\sub-357_ses-postop_task-es_run-09_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-10": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-357/ses-postop/func\\sub-357_ses-postop_task-es_run-10_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-357/ses-postop/func\\sub-357_ses-postop_task-es_run-10_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-357/ses-postop/func\\sub-357_ses-postop_task-es_run-10_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-11": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-357/ses-postop/func\\sub-357_ses-postop_task-es_run-11_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-357/ses-postop/func\\sub-357_ses-postop_task-es_run-11_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-357/ses-postop/func\\sub-357_ses-postop_task-es_run-11_desc-confounds_regressors.tsv",
+                "TR": 3
+            }
+        }
+    },
+    "sub-369": {
+        "ses-preop": {},
+        "ses-postop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-369/ses-postop/func\\sub-369_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-369/ses-postop/func\\sub-369_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-369/ses-postop/func\\sub-369_ses-postop_task-es_run-01_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-369/ses-postop/func\\sub-369_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-369/ses-postop/func\\sub-369_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-369/ses-postop/func\\sub-369_ses-postop_task-es_run-02_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-369/ses-postop/func\\sub-369_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-369/ses-postop/func\\sub-369_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-369/ses-postop/func\\sub-369_ses-postop_task-es_run-03_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-04": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-369/ses-postop/func\\sub-369_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-369/ses-postop/func\\sub-369_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-369/ses-postop/func\\sub-369_ses-postop_task-es_run-04_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-05": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-369/ses-postop/func\\sub-369_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-369/ses-postop/func\\sub-369_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-369/ses-postop/func\\sub-369_ses-postop_task-es_run-05_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-06": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-369/ses-postop/func\\sub-369_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-369/ses-postop/func\\sub-369_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-369/ses-postop/func\\sub-369_ses-postop_task-es_run-06_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-07": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-369/ses-postop/func\\sub-369_ses-postop_task-es_run-07_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-369/ses-postop/func\\sub-369_ses-postop_task-es_run-07_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-369/ses-postop/func\\sub-369_ses-postop_task-es_run-07_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-08": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-369/ses-postop/func\\sub-369_ses-postop_task-es_run-08_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-369/ses-postop/func\\sub-369_ses-postop_task-es_run-08_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-369/ses-postop/func\\sub-369_ses-postop_task-es_run-08_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-09": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-369/ses-postop/func\\sub-369_ses-postop_task-es_run-09_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-369/ses-postop/func\\sub-369_ses-postop_task-es_run-09_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-369/ses-postop/func\\sub-369_ses-postop_task-es_run-09_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-10": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-369/ses-postop/func\\sub-369_ses-postop_task-es_run-10_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-369/ses-postop/func\\sub-369_ses-postop_task-es_run-10_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-369/ses-postop/func\\sub-369_ses-postop_task-es_run-10_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-11": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-369/ses-postop/func\\sub-369_ses-postop_task-es_run-11_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-369/ses-postop/func\\sub-369_ses-postop_task-es_run-11_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-369/ses-postop/func\\sub-369_ses-postop_task-es_run-11_desc-confounds_regressors.tsv",
+                "TR": 3
+            }
+        }
+    },
+    "sub-372": {
+        "ses-preop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-372/ses-preop/func\\sub-372_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-372/ses-preop/func\\sub-372_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-372/ses-preop/func\\sub-372_ses-preop_task-rest_run-01_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-372/ses-preop/func\\sub-372_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-372/ses-preop/func\\sub-372_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-372/ses-preop/func\\sub-372_ses-preop_task-rest_run-02_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-372/ses-preop/func\\sub-372_ses-preop_task-rest_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-372/ses-preop/func\\sub-372_ses-preop_task-rest_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-372/ses-preop/func\\sub-372_ses-preop_task-rest_run-03_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            }
+        },
+        "ses-postop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-372/ses-postop/func\\sub-372_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-372/ses-postop/func\\sub-372_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-372/ses-postop/func\\sub-372_ses-postop_task-es_run-01_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-372/ses-postop/func\\sub-372_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-372/ses-postop/func\\sub-372_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-372/ses-postop/func\\sub-372_ses-postop_task-es_run-02_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-372/ses-postop/func\\sub-372_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-372/ses-postop/func\\sub-372_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-372/ses-postop/func\\sub-372_ses-postop_task-es_run-03_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-04": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-372/ses-postop/func\\sub-372_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-372/ses-postop/func\\sub-372_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-372/ses-postop/func\\sub-372_ses-postop_task-es_run-04_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-05": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-372/ses-postop/func\\sub-372_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-372/ses-postop/func\\sub-372_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-372/ses-postop/func\\sub-372_ses-postop_task-es_run-05_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-06": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-372/ses-postop/func\\sub-372_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-372/ses-postop/func\\sub-372_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-372/ses-postop/func\\sub-372_ses-postop_task-es_run-06_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-07": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-372/ses-postop/func\\sub-372_ses-postop_task-es_run-07_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-372/ses-postop/func\\sub-372_ses-postop_task-es_run-07_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-372/ses-postop/func\\sub-372_ses-postop_task-es_run-07_desc-confounds_regressors.tsv",
+                "TR": 3
+            }
+        }
+    },
+    "sub-376": {
+        "ses-preop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-376/ses-preop/func\\sub-376_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-376/ses-preop/func\\sub-376_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-376/ses-preop/func\\sub-376_ses-preop_task-rest_run-01_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-376/ses-preop/func\\sub-376_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-376/ses-preop/func\\sub-376_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-376/ses-preop/func\\sub-376_ses-preop_task-rest_run-02_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-376/ses-preop/func\\sub-376_ses-preop_task-rest_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-376/ses-preop/func\\sub-376_ses-preop_task-rest_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-376/ses-preop/func\\sub-376_ses-preop_task-rest_run-03_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            }
+        },
+        "ses-postop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-376/ses-postop/func\\sub-376_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-376/ses-postop/func\\sub-376_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-376/ses-postop/func\\sub-376_ses-postop_task-es_run-01_desc-confounds_regressors.tsv",
+                "TR": 3.06
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-376/ses-postop/func\\sub-376_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-376/ses-postop/func\\sub-376_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-376/ses-postop/func\\sub-376_ses-postop_task-es_run-02_desc-confounds_regressors.tsv",
+                "TR": 3.06
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-376/ses-postop/func\\sub-376_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-376/ses-postop/func\\sub-376_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-376/ses-postop/func\\sub-376_ses-postop_task-es_run-03_desc-confounds_regressors.tsv",
+                "TR": 3.06
+            },
+            "run-04": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-376/ses-postop/func\\sub-376_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-376/ses-postop/func\\sub-376_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-376/ses-postop/func\\sub-376_ses-postop_task-es_run-04_desc-confounds_regressors.tsv",
+                "TR": 3.06
+            },
+            "run-05": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-376/ses-postop/func\\sub-376_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-376/ses-postop/func\\sub-376_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-376/ses-postop/func\\sub-376_ses-postop_task-es_run-05_desc-confounds_regressors.tsv",
+                "TR": 3.06
+            }
+        }
+    },
+    "sub-384": {
+        "ses-preop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-384/ses-preop/func\\sub-384_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-384/ses-preop/func\\sub-384_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-384/ses-preop/func\\sub-384_ses-preop_task-rest_run-01_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-384/ses-preop/func\\sub-384_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-384/ses-preop/func\\sub-384_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-384/ses-preop/func\\sub-384_ses-preop_task-rest_run-02_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-384/ses-preop/func\\sub-384_ses-preop_task-rest_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-384/ses-preop/func\\sub-384_ses-preop_task-rest_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-384/ses-preop/func\\sub-384_ses-preop_task-rest_run-03_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            }
+        },
+        "ses-postop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-384/ses-postop/func\\sub-384_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-384/ses-postop/func\\sub-384_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-384/ses-postop/func\\sub-384_ses-postop_task-es_run-01_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-384/ses-postop/func\\sub-384_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-384/ses-postop/func\\sub-384_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-384/ses-postop/func\\sub-384_ses-postop_task-es_run-02_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-384/ses-postop/func\\sub-384_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-384/ses-postop/func\\sub-384_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-384/ses-postop/func\\sub-384_ses-postop_task-es_run-03_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-04": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-384/ses-postop/func\\sub-384_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-384/ses-postop/func\\sub-384_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-384/ses-postop/func\\sub-384_ses-postop_task-es_run-04_desc-confounds_regressors.tsv",
+                "TR": 3
+            }
+        }
+    },
+    "sub-394": {
+        "ses-preop": {},
+        "ses-postop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-394/ses-postop/func\\sub-394_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-394/ses-postop/func\\sub-394_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-394/ses-postop/func\\sub-394_ses-postop_task-es_run-01_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-394/ses-postop/func\\sub-394_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-394/ses-postop/func\\sub-394_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-394/ses-postop/func\\sub-394_ses-postop_task-es_run-02_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-394/ses-postop/func\\sub-394_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-394/ses-postop/func\\sub-394_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-394/ses-postop/func\\sub-394_ses-postop_task-es_run-03_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-04": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-394/ses-postop/func\\sub-394_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-394/ses-postop/func\\sub-394_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-394/ses-postop/func\\sub-394_ses-postop_task-es_run-04_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-05": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-394/ses-postop/func\\sub-394_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-394/ses-postop/func\\sub-394_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-394/ses-postop/func\\sub-394_ses-postop_task-es_run-05_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-06": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-394/ses-postop/func\\sub-394_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-394/ses-postop/func\\sub-394_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-394/ses-postop/func\\sub-394_ses-postop_task-es_run-06_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-07": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-394/ses-postop/func\\sub-394_ses-postop_task-es_run-07_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-394/ses-postop/func\\sub-394_ses-postop_task-es_run-07_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-394/ses-postop/func\\sub-394_ses-postop_task-es_run-07_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-08": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-394/ses-postop/func\\sub-394_ses-postop_task-es_run-08_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-394/ses-postop/func\\sub-394_ses-postop_task-es_run-08_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-394/ses-postop/func\\sub-394_ses-postop_task-es_run-08_desc-confounds_regressors.tsv",
+                "TR": 3
+            }
+        }
+    },
+    "sub-395": {
+        "ses-preop": {},
+        "ses-postop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-395/ses-postop/func\\sub-395_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-395/ses-postop/func\\sub-395_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-395/ses-postop/func\\sub-395_ses-postop_task-es_run-01_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-395/ses-postop/func\\sub-395_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-395/ses-postop/func\\sub-395_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-395/ses-postop/func\\sub-395_ses-postop_task-es_run-02_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-395/ses-postop/func\\sub-395_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-395/ses-postop/func\\sub-395_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-395/ses-postop/func\\sub-395_ses-postop_task-es_run-03_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-04": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-395/ses-postop/func\\sub-395_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-395/ses-postop/func\\sub-395_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-395/ses-postop/func\\sub-395_ses-postop_task-es_run-04_desc-confounds_regressors.tsv",
+                "TR": 3
+            }
+        }
+    },
+    "sub-399": {
+        "ses-preop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-399/ses-preop/func\\sub-399_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-399/ses-preop/func\\sub-399_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-399/ses-preop/func\\sub-399_ses-preop_task-rest_run-01_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-399/ses-preop/func\\sub-399_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-399/ses-preop/func\\sub-399_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-399/ses-preop/func\\sub-399_ses-preop_task-rest_run-02_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-399/ses-preop/func\\sub-399_ses-preop_task-rest_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-399/ses-preop/func\\sub-399_ses-preop_task-rest_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-399/ses-preop/func\\sub-399_ses-preop_task-rest_run-03_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            }
+        },
+        "ses-postop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-399/ses-postop/func\\sub-399_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-399/ses-postop/func\\sub-399_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-399/ses-postop/func\\sub-399_ses-postop_task-es_run-01_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-399/ses-postop/func\\sub-399_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-399/ses-postop/func\\sub-399_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-399/ses-postop/func\\sub-399_ses-postop_task-es_run-02_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-399/ses-postop/func\\sub-399_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-399/ses-postop/func\\sub-399_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-399/ses-postop/func\\sub-399_ses-postop_task-es_run-03_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-04": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-399/ses-postop/func\\sub-399_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-399/ses-postop/func\\sub-399_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-399/ses-postop/func\\sub-399_ses-postop_task-es_run-04_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-05": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-399/ses-postop/func\\sub-399_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-399/ses-postop/func\\sub-399_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-399/ses-postop/func\\sub-399_ses-postop_task-es_run-05_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-06": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-399/ses-postop/func\\sub-399_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-399/ses-postop/func\\sub-399_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-399/ses-postop/func\\sub-399_ses-postop_task-es_run-06_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-07": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-399/ses-postop/func\\sub-399_ses-postop_task-es_run-07_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-399/ses-postop/func\\sub-399_ses-postop_task-es_run-07_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-399/ses-postop/func\\sub-399_ses-postop_task-es_run-07_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-08": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-399/ses-postop/func\\sub-399_ses-postop_task-es_run-08_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-399/ses-postop/func\\sub-399_ses-postop_task-es_run-08_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-399/ses-postop/func\\sub-399_ses-postop_task-es_run-08_desc-confounds_regressors.tsv",
+                "TR": 3
+            }
+        }
+    },
+    "sub-400": {
+        "ses-preop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-400/ses-preop/func\\sub-400_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-400/ses-preop/func\\sub-400_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-400/ses-preop/func\\sub-400_ses-preop_task-rest_run-01_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-400/ses-preop/func\\sub-400_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-400/ses-preop/func\\sub-400_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-400/ses-preop/func\\sub-400_ses-preop_task-rest_run-02_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-400/ses-preop/func\\sub-400_ses-preop_task-rest_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-400/ses-preop/func\\sub-400_ses-preop_task-rest_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-400/ses-preop/func\\sub-400_ses-preop_task-rest_run-03_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-04": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-400/ses-preop/func\\sub-400_ses-preop_task-rest_run-04_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-400/ses-preop/func\\sub-400_ses-preop_task-rest_run-04_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-400/ses-preop/func\\sub-400_ses-preop_task-rest_run-04_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-05": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-400/ses-preop/func\\sub-400_ses-preop_task-rest_run-05_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-400/ses-preop/func\\sub-400_ses-preop_task-rest_run-05_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-400/ses-preop/func\\sub-400_ses-preop_task-rest_run-05_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            }
+        },
+        "ses-postop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-400/ses-postop/func\\sub-400_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-400/ses-postop/func\\sub-400_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-400/ses-postop/func\\sub-400_ses-postop_task-es_run-01_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-400/ses-postop/func\\sub-400_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-400/ses-postop/func\\sub-400_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-400/ses-postop/func\\sub-400_ses-postop_task-es_run-02_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-400/ses-postop/func\\sub-400_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-400/ses-postop/func\\sub-400_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-400/ses-postop/func\\sub-400_ses-postop_task-es_run-03_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-04": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-400/ses-postop/func\\sub-400_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-400/ses-postop/func\\sub-400_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-400/ses-postop/func\\sub-400_ses-postop_task-es_run-04_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-05": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-400/ses-postop/func\\sub-400_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-400/ses-postop/func\\sub-400_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-400/ses-postop/func\\sub-400_ses-postop_task-es_run-05_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-06": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-400/ses-postop/func\\sub-400_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-400/ses-postop/func\\sub-400_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-400/ses-postop/func\\sub-400_ses-postop_task-es_run-06_desc-confounds_regressors.tsv",
+                "TR": 3
+            }
+        }
+    },
+    "sub-403": {
+        "ses-preop": {},
+        "ses-postop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-403/ses-postop/func\\sub-403_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-403/ses-postop/func\\sub-403_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-403/ses-postop/func\\sub-403_ses-postop_task-es_run-01_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-403/ses-postop/func\\sub-403_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-403/ses-postop/func\\sub-403_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-403/ses-postop/func\\sub-403_ses-postop_task-es_run-02_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-403/ses-postop/func\\sub-403_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-403/ses-postop/func\\sub-403_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-403/ses-postop/func\\sub-403_ses-postop_task-es_run-03_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-04": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-403/ses-postop/func\\sub-403_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-403/ses-postop/func\\sub-403_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-403/ses-postop/func\\sub-403_ses-postop_task-es_run-04_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-05": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-403/ses-postop/func\\sub-403_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-403/ses-postop/func\\sub-403_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-403/ses-postop/func\\sub-403_ses-postop_task-es_run-05_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-06": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-403/ses-postop/func\\sub-403_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-403/ses-postop/func\\sub-403_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-403/ses-postop/func\\sub-403_ses-postop_task-es_run-06_desc-confounds_regressors.tsv",
+                "TR": 3
+            }
+        }
+    },
+    "sub-405": {
+        "ses-preop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-405/ses-preop/func\\sub-405_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-405/ses-preop/func\\sub-405_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-405/ses-preop/func\\sub-405_ses-preop_task-rest_run-01_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-405/ses-preop/func\\sub-405_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-405/ses-preop/func\\sub-405_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-405/ses-preop/func\\sub-405_ses-preop_task-rest_run-02_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-405/ses-preop/func\\sub-405_ses-preop_task-rest_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-405/ses-preop/func\\sub-405_ses-preop_task-rest_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-405/ses-preop/func\\sub-405_ses-preop_task-rest_run-03_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-04": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-405/ses-preop/func\\sub-405_ses-preop_task-rest_run-04_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-405/ses-preop/func\\sub-405_ses-preop_task-rest_run-04_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-405/ses-preop/func\\sub-405_ses-preop_task-rest_run-04_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-05": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-405/ses-preop/func\\sub-405_ses-preop_task-rest_run-05_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-405/ses-preop/func\\sub-405_ses-preop_task-rest_run-05_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-405/ses-preop/func\\sub-405_ses-preop_task-rest_run-05_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            }
+        },
+        "ses-postop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-405/ses-postop/func\\sub-405_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-405/ses-postop/func\\sub-405_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-405/ses-postop/func\\sub-405_ses-postop_task-es_run-01_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-405/ses-postop/func\\sub-405_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-405/ses-postop/func\\sub-405_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-405/ses-postop/func\\sub-405_ses-postop_task-es_run-02_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-405/ses-postop/func\\sub-405_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-405/ses-postop/func\\sub-405_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-405/ses-postop/func\\sub-405_ses-postop_task-es_run-03_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-04": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-405/ses-postop/func\\sub-405_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-405/ses-postop/func\\sub-405_ses-postop_task-es_run-04_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-405/ses-postop/func\\sub-405_ses-postop_task-es_run-04_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-05": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-405/ses-postop/func\\sub-405_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-405/ses-postop/func\\sub-405_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-405/ses-postop/func\\sub-405_ses-postop_task-es_run-05_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-06": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-405/ses-postop/func\\sub-405_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-405/ses-postop/func\\sub-405_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-405/ses-postop/func\\sub-405_ses-postop_task-es_run-06_desc-confounds_regressors.tsv",
+                "TR": 3
+            }
+        }
+    },
+    "sub-413": {
+        "ses-preop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-413/ses-preop/func\\sub-413_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-413/ses-preop/func\\sub-413_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-413/ses-preop/func\\sub-413_ses-preop_task-rest_run-01_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-413/ses-preop/func\\sub-413_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-413/ses-preop/func\\sub-413_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-413/ses-preop/func\\sub-413_ses-preop_task-rest_run-02_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-413/ses-preop/func\\sub-413_ses-preop_task-rest_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-413/ses-preop/func\\sub-413_ses-preop_task-rest_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-413/ses-preop/func\\sub-413_ses-preop_task-rest_run-03_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-04": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-413/ses-preop/func\\sub-413_ses-preop_task-rest_run-04_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-413/ses-preop/func\\sub-413_ses-preop_task-rest_run-04_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-413/ses-preop/func\\sub-413_ses-preop_task-rest_run-04_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            },
+            "run-05": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-413/ses-preop/func\\sub-413_ses-preop_task-rest_run-05_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-413/ses-preop/func\\sub-413_ses-preop_task-rest_run-05_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-413/ses-preop/func\\sub-413_ses-preop_task-rest_run-05_desc-confounds_regressors.tsv",
+                "TR": 2.26
+            }
+        },
+        "ses-postop": {
+            "run-01": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-413/ses-postop/func\\sub-413_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-413/ses-postop/func\\sub-413_ses-postop_task-es_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-413/ses-postop/func\\sub-413_ses-postop_task-es_run-01_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-02": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-413/ses-postop/func\\sub-413_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-413/ses-postop/func\\sub-413_ses-postop_task-es_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-413/ses-postop/func\\sub-413_ses-postop_task-es_run-02_desc-confounds_regressors.tsv",
+                "TR": 3
+            },
+            "run-03": {
+                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-413/ses-postop/func\\sub-413_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-413/ses-postop/func\\sub-413_ses-postop_task-es_run-03_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
+                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-413/ses-postop/func\\sub-413_ses-postop_task-es_run-03_desc-confounds_regressors.tsv",
+                "TR": 3
+            }
+        }
+    }
+}
