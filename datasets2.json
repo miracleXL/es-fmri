@@ -175,13 +175,6 @@
                 "TR": 3,
                 "length": 696
             },
-            "run-05": {
-                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-postop/func\\sub-303_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
-                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-postop/func\\sub-303_ses-postop_task-es_run-05_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
-                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-postop/func\\sub-303_ses-postop_task-es_run-05_desc-confounds_regressors.tsv",
-                "TR": 3,
-                "length": 243
-            },
             "run-06": {
                 "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-postop/func\\sub-303_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
                 "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-postop/func\\sub-303_ses-postop_task-es_run-06_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
@@ -193,13 +186,6 @@
     },
     "sub-307": {
         "ses-preop": {
-            "run-01": {
-                "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-preop/func\\sub-307_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
-                "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-preop/func\\sub-307_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
-                "confounds": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-preop/func\\sub-307_ses-preop_task-rest_run-01_desc-confounds_regressors.tsv",
-                "TR": 2.26,
-                "length": 155.94
-            },
             "run-02": {
                 "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-preop/func\\sub-307_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
                 "mask": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-preop/func\\sub-307_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz",
