@@ -1,5 +1,6 @@
 {
     "sub-292": {
+        "soz": "左内侧颞叶、左额叶",
         "ses-preop": {
             "run-01": {
                 "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-292/ses-preop/func\\sub-292_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
@@ -55,6 +56,7 @@
         }
     },
     "sub-294": {
+        "soz": "右前额叶",
         "ses-preop": {
             "run-01": {
                 "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-294/ses-preop/func\\sub-294_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
@@ -82,6 +84,7 @@
         }
     },
     "sub-302": {
+        "soz": "左内侧颞叶",
         "ses-preop": {
             "run-01": {
                 "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-302/ses-preop/func\\sub-302_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
@@ -109,6 +112,7 @@
         }
     },
     "sub-303": {
+        "soz": "右内侧颞叶，左内侧颞叶脑软化",
         "ses-preop": {
             "run-01": {
                 "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-303/ses-preop/func\\sub-303_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
@@ -185,6 +189,7 @@
         }
     },
     "sub-307": {
+        "soz": "左侧脑岛",
         "ses-preop": {
             "run-02": {
                 "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-307/ses-preop/func\\sub-307_ses-preop_task-rest_run-02_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
@@ -268,6 +273,7 @@
         }
     },
     "sub-314": {
+        "soz": "双侧内侧颞叶",
         "ses-preop": {
             "run-01": {
                 "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-314/ses-preop/func\\sub-314_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
@@ -344,6 +350,7 @@
         }
     },
     "sub-316": {
+        "soz": "右内侧颞叶",
         "ses-preop": {
             "run-01": {
                 "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-316/ses-preop/func\\sub-316_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
@@ -434,6 +441,7 @@
         }
     },
     "sub-320": {
+        "soz": "右侧海马体",
         "ses-preop": {
             "run-01": {
                 "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-320/ses-preop/func\\sub-320_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
@@ -517,6 +525,7 @@
         }
     },
     "sub-330": {
+        "soz": "左枕叶",
         "ses-preop": {
             "run-01": {
                 "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-330/ses-preop/func\\sub-330_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
@@ -614,6 +623,7 @@
         }
     },
     "sub-331": {
+        "soz": "左内侧颞叶",
         "ses-preop": {
             "run-01": {
                 "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-331/ses-preop/func\\sub-331_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
@@ -711,6 +721,7 @@
         }
     },
     "sub-334": {
+        "soz": "右颞极，左颞基底",
         "ses-preop": {
             "run-01": {
                 "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-334/ses-preop/func\\sub-334_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
@@ -822,6 +833,7 @@
         }
     },
     "sub-335": {
+        "soz": "双侧内侧颞叶",
         "ses-preop": {
             "run-01": {
                 "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-335/ses-preop/func\\sub-335_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
@@ -933,6 +945,7 @@
         }
     },
     "sub-352": {
+        "soz": "左额囊性瘤",
         "ses-preop": {
             "run-01": {
                 "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-352/ses-preop/func\\sub-352_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
@@ -1044,6 +1057,7 @@
         }
     },
     "sub-372": {
+        "soz": "左颞极",
         "ses-preop": {
             "run-01": {
                 "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-372/ses-preop/func\\sub-372_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
@@ -1120,6 +1134,7 @@
         }
     },
     "sub-376": {
+        "soz": "右内侧颞叶",
         "ses-preop": {
             "run-01": {
                 "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-376/ses-preop/func\\sub-376_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
@@ -1182,6 +1197,7 @@
         }
     },
     "sub-384": {
+        "soz": "右内侧颞叶，右额叶",
         "ses-preop": {
             "run-01": {
                 "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-384/ses-preop/func\\sub-384_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
@@ -1237,6 +1253,7 @@
         }
     },
     "sub-399": {
+        "soz": "右内侧颞叶，可能是右额基",
         "ses-preop": {
             "run-01": {
                 "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-399/ses-preop/func\\sub-399_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
@@ -1320,6 +1337,7 @@
         }
     },
     "sub-400": {
+        "soz": "左内侧颞叶",
         "ses-preop": {
             "run-01": {
                 "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-400/ses-preop/func\\sub-400_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
@@ -1396,6 +1414,7 @@
         }
     },
     "sub-405": {
+        "soz": "左额脑软化症",
         "ses-preop": {
             "run-01": {
                 "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-405/ses-preop/func\\sub-405_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
@@ -1479,6 +1498,7 @@
         }
     },
     "sub-413": {
+        "soz": "右内侧颞叶",
         "ses-preop": {
             "run-01": {
                 "bold": "D:/code/datasets/ds002799/derivatives/fmriprep/sub-413/ses-preop/func\\sub-413_ses-preop_task-rest_run-01_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
