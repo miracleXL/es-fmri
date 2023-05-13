@@ -1,12 +1,13 @@
 from nilearn import datasets
 import networkx as nx
+import pickle
 
 # 注释掉的是不方便计算评估的参数
 def cal_graph(fc, threshold):
     atlas_labels = datasets.fetch_atlas_aal()['labels']
     # 创建图
     fcg = nx.Graph()
-    fcg.add_edges_from([(atlas_labels[i], atlas_labels[j]) for i in range(fc.shape[0]) for j in range(fc.shape[1]) if i != j and fc[i][j] >= threshold/100])
+    fcg.add_edges_from([(atlas_labels[i], atlas_labels[j]) for i in range(fc.shape[0]) for j in range(fc.shape[1]) if i != j and abs(fc[i][j]) >= threshold/100])
     fcg.add_nodes_from(atlas_labels)
     if len(fcg.edges) == 0:
         print(f"图为空")
@@ -78,3 +79,25 @@ def cal_graph(fc, threshold):
     #     print(e)
     
     return this_run
+
+def multi_process(dFC, sub, threshold, save_path):
+    graph = {}
+    graph["ses-preop"] = {}
+    for run, dfc in dFC["ses-preop"].items():
+        graph["ses-preop"][run] = []
+        for fc in dfc:
+            fcg = cal_graph(fc, threshold)
+            if fcg is not None:
+                graph["ses-preop"][run].append(fcg)
+    graph["ses-postop"] = {}
+    for run, dfc in dFC["ses-postop"].items():
+        graph["ses-postop"][run] = []
+        for fc in dfc:
+            fcg = cal_graph(fc, threshold)
+            if fcg is not None:
+                graph["ses-postop"][run].append(fcg)
+    print(sub, "计算完成")
+    with open(f"{save_path}/{sub}.pkl", "wb") as f:
+        pickle.dump(graph, f)
+    print(sub, "保存成功")
+    return graph, sub
