@@ -67,16 +67,19 @@ def cal_graph(fc, threshold):
     # ratio of local to global efficiency（局部全局效率比）
     this_run["ratio"] = this_run["local_efficiency"]/this_run["global_efficiency"]
 
-    # try:
-    #     # characteristic path length/average shortest path length（特征路径长度/平均最短路径长度）
-    #     this_run["char_path_len"] = nx.average_shortest_path_length(fcg)
-    #     this_run["connected"] = True
+    # 模块度
+    this_run["modularity"] = nx.community.modularity(fcg, nx.community.greedy_modularity_communities(fcg))
 
-    #     # # small-world coefficient（小世界系数）
-    #     # this_run["small_world"] = nx.sigma(fcg, 30)
-    # except nx.NetworkXError as e:
-    #     this_run["connected"] = False
-    #     print(e)
+    try:
+        # characteristic path length/average shortest path length（特征路径长度/平均最短路径长度）
+        this_run["char_path_len"] = nx.average_shortest_path_length(fcg)
+        this_run["connected"] = True
+
+        # small-world coefficient（小世界系数）
+        this_run["small_world"] = nx.sigma(fcg, 10)
+    except nx.NetworkXError as e:
+        this_run["connected"] = False
+        print(e)
     
     return this_run
 

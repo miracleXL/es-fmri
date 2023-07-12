@@ -74,7 +74,10 @@ def plot_sates(states, k, save_path=None):
     plt.close("all")
 
 def plot_evaluated(x_axis, inertias=None, scs=None, chs=None, dbs=None, aic=None, bic=None, save_path=None):
-    figi, axi = plt.subplots(3, 2, figsize=(20, 10))
+    if aic is None and bic is None:
+        figi, axi = plt.subplots(2, 2, figsize=(20, 10))
+    else:
+        figi, axi = plt.subplots(3, 2, figsize=(20, 15))
     figi.patch.set_color("white")
     if inertias is not None:
         axi[0, 0].set_title("elbow method")
@@ -143,7 +146,7 @@ def windows_evaluate(data, subid, window_lengths, step, k, save_path):
     data: dict, 所有数据的字典
     subid: str, 待评估被试id
     window_lengths: list, 所有待测试窗口尺寸
-    step: int, 窗口步长
+    step: int, 窗口步长，单位TR
     k: int, 目标状态数
     save_path: str, 保存路径
     """
@@ -152,120 +155,102 @@ def windows_evaluate(data, subid, window_lengths, step, k, save_path):
     scs = []
     chs = []
     dbs = []
-    aic = []
-    bic = []
+    # aic = []
+    # bic = []
     for time in window_lengths:
-        windows_preop = []
-        for run, items in data[subid]["ses-preop"].items():
-            stepTR = math.ceil(step/items["TR"])
-            preopTR = math.ceil(time/items["TR"])
-            windows_preop += sliceWindows(items["time_series"], preopTR, stepTR)
-        windows_postop = []
-        for run, items in data[subid]["ses-postop"].items():
-            stepTR = math.ceil(step/items["TR"])
-            postopTR = math.ceil(time/items["TR"])
-            windows_postop += sliceWindows(items["time_series"], postopTR, stepTR)
-        windows = windows_preop + windows_postop
+        windows = []
+        if subid is None:
+            for subid in data:
+                for run, items in data[subid]["ses-preop"].items():
+                    preopFrame = math.ceil(time/items["TR"])
+                    windows += sliceWindows(items["time_series"], preopFrame, step)
+                for run, items in data[subid]["ses-postop"].items():
+                    postopFrame = math.ceil(time/items["TR"])
+                    windows += sliceWindows(items["time_series"], postopFrame, step)
+        else:
+            for run, items in data[subid]["ses-preop"].items():
+                preopFrame = math.ceil(time/items["TR"])
+                windows += sliceWindows(items["time_series"], preopFrame, step)
+            for run, items in data[subid]["ses-postop"].items():
+                postopFrame = math.ceil(time/items["TR"])
+                windows += sliceWindows(items["time_series"], postopFrame, step)
         fcs = connectome.ConnectivityMeasure(kind="correlation").fit_transform(windows)
-        fcs2d = fcs.reshape((fcs.shape[0], 13456))
-        if k < fcs2d.shape[0]:
-            center, states, inertia = cluster.k_means(fcs2d, k)
+        del windows
+        fcs = fcs.reshape((fcs.shape[0], 13456))
+        if k < fcs.shape[0]:
+            center, states, inertia = cluster.k_means(fcs, k)
             inertias.append(inertia) # 肘点法
-            scs.append(metrics.silhouette_score(fcs2d, states)) # 轮廓系数
-            chs.append(metrics.calinski_harabasz_score(fcs2d, states)) # CH，方差比
-            dbs.append(metrics.davies_bouldin_score(fcs2d, states)) # DB
-            aic.append(AIC(fcs2d.shape[0], k, inertia))
-            bic.append(BIC(fcs2d.shape[0], k, inertia))
+            scs.append(metrics.silhouette_score(fcs, states)) # 轮廓系数
+            chs.append(metrics.calinski_harabasz_score(fcs, states)) # CH，方差比
+            dbs.append(metrics.davies_bouldin_score(fcs, states)) # DB
+            # aic.append(AIC(fcs2d.shape[0], k, inertia))
+            # bic.append(BIC(fcs2d.shape[0], k, inertia))
         else:
             inertias.append(inertias[-1])
             scs.append(scs[-1])
             chs.append(chs[-1])
             dbs.append(dbs[-1])
-            aic.append(aic[-1])
-            bic.append(bic[-1])
+            # aic.append(aic[-1])
+            # bic.append(bic[-1])
     # 绘图
-    plot_evaluated(window_lengths, inertias=inertias, scs=scs, chs=chs, dbs=dbs, aic=aic, bic=bic, save_path=save_path)
+    # plot_evaluated(window_lengths, inertias=inertias, scs=scs, chs=chs, dbs=dbs, aic=aic, bic=bic, save_path=save_path)
+    plot_evaluated(window_lengths, inertias=inertias, scs=scs, chs=chs, dbs=dbs, aic=None, bic=None, save_path=save_path)
 
-def step_evaluate(window_length, steps, k, save_path, time_series_preop=None, time_series_postop=None):
-    if time_series_preop is None and time_series_postop is None:
-        return
-    inertias = {"preop":[], "postop":[], "total":[]}
-    scs = {"preop":[], "postop":[], "total":[]}
-    chs = {"preop":[], "postop":[], "total":[]}
-    dbs = {"preop":[], "postop":[], "total":[]}
-    aic = {"preop":[], "postop":[], "total":[]}
-    bic = {"preop":[], "postop":[], "total":[]}
-    for step in steps:
-        if time_series_preop is not None:
-            windows = []
-            for run, items in time_series_preop.items():
-                preopTR = math.ceil(window_length/items["TR"])
-                windows += sliceWindows(items["time_series"], preopTR, step)
-            fcs_preop = connectome.ConnectivityMeasure(kind="correlation").fit_transform(windows)
-            fcs2d_preop = fcs_preop.reshape((fcs_preop.shape[0], 13456))
-            if k < fcs2d_preop.shape[0]:
-                center, states, inertia = cluster.k_means(fcs2d_preop, k)
-                inertias["preop"].append(inertia) # 肘点法
-                scs["preop"].append(metrics.silhouette_score(fcs2d_preop, states)) # 轮廓系数
-                chs["preop"].append(metrics.calinski_harabasz_score(fcs2d_preop, states)) # CH，方差比
-                dbs["preop"].append(metrics.davies_bouldin_score(fcs2d_preop, states)) # DB
-                aic["preop"].append(AIC(fcs2d_preop.shape[0], k, inertia))
-                bic["preop"].append(BIC(fcs2d_preop.shape[0], k, inertia))
-            else:
-                inertias["preop"].append(0)
-                scs["preop"].append(0)
-                chs["preop"].append(0)
-                dbs["preop"].append(0)
-                aic["preop"].append(0)
-                bic["preop"].append(0)
-        if time_series_postop is not None:
-            windows = []
-            for run, items in time_series_postop.items():
-                postopTR = math.ceil(window_length/items["TR"])
-                windows += sliceWindows(items["time_series"], postopTR, step)
-            fcs = connectome.ConnectivityMeasure(kind="correlation").fit_transform(windows)
-            del windows
-            fcs = fcs.reshape((fcs.shape[0], 13456))
-            if k < fcs.shape[0]:
-                center, states, inertia = cluster.k_means(fcs, k)
-                inertias["postop"].append(inertia) # 肘点法
-                scs["postop"].append(metrics.silhouette_score(fcs, states)) # 轮廓系数
-                chs["postop"].append(metrics.calinski_harabasz_score(fcs, states)) # CH，方差比
-                dbs["postop"].append(metrics.davies_bouldin_score(fcs, states)) # DB
-                aic["postop"].append(AIC(fcs.shape[0], k, inertia))
-                bic["postop"].append(BIC(fcs.shape[0], k, inertia))
-            else:
-                inertias["postop"].append(0)
-                scs["postop"].append(0)
-                chs["postop"].append(0)
-                dbs["postop"].append(0)
-                aic["postop"].append(0)
-                bic["postop"].append(0)
-        if time_series_preop is not None and time_series_postop is not None:
-            fcs = connectome.ConnectivityMeasure(kind="correlation").fit_transform(windows)
-            fcs = fcs.reshape((fcs.shape[0], 13456))
-            if k < fcs.shape[0]:
-                center, states, inertia = cluster.k_means(fcs, k)
-                inertias["total"].append(inertia) # 肘点法
-                scs["total"].append(metrics.silhouette_score(fcs, states)) # 轮廓系数
-                chs["total"].append(metrics.calinski_harabasz_score(fcs, states)) # CH，方差比
-                dbs["total"].append(metrics.davies_bouldin_score(fcs, states)) # DB
-                aic["total"].append(AIC(fcs.shape[0], k, inertia))
-                bic["total"].append(BIC(fcs.shape[0], k, inertia))
-            else:
-                inertias["total"].append(0)
-                scs["total"].append(0)
-                chs["total"].append(0)
-                dbs["total"].append(0)
-                aic["total"].append(0)
-                bic["total"].append(0)
+def step_evaluate(data, subid, window_length, step_sizes, k, save_path):
+    """
+    评估窗口尺寸对聚类效果的影响。
+    data: dict, 所有数据的字典
+    subid: str, 待评估被试id
+    window_length: list, 所有待测试窗口尺寸
+    step_sizes: list[int], 窗口步长，单位TR
+    k: int, 目标状态数
+    save_path: str, 保存路径
+    """
+
+    inertias = []
+    scs = []
+    chs = []
+    dbs = []
+    # aic = []
+    # bic = []
+    for step in step_sizes:
+        windows = []
+        if subid is None:
+            for subid in data:
+                for run, items in data[subid]["ses-preop"].items():
+                    preopFrame = math.ceil(window_length/items["TR"])
+                    windows += sliceWindows(items["time_series"], preopFrame, step)
+                for run, items in data[subid]["ses-postop"].items():
+                    postopFrame = math.ceil(window_length/items["TR"])
+                    windows += sliceWindows(items["time_series"], postopFrame, step)
+        else:
+            for run, items in data[subid]["ses-preop"].items():
+                preopFrame = math.ceil(window_length/items["TR"])
+                windows += sliceWindows(items["time_series"], preopFrame, step)
+            for run, items in data[subid]["ses-postop"].items():
+                postopFrame = math.ceil(window_length/items["TR"])
+                windows += sliceWindows(items["time_series"], postopFrame, step)
+        fcs = connectome.ConnectivityMeasure(kind="correlation").fit_transform(windows)
+        del windows
+        fcs = fcs.reshape((fcs.shape[0], 13456))
+        if k < fcs.shape[0]:
+            center, states, inertia = cluster.k_means(fcs, k)
+            inertias.append(inertia) # 肘点法
+            scs.append(metrics.silhouette_score(fcs, states)) # 轮廓系数
+            chs.append(metrics.calinski_harabasz_score(fcs, states)) # CH，方差比
+            dbs.append(metrics.davies_bouldin_score(fcs, states)) # DB
+            # aic.append(AIC(fcs2d.shape[0], k, inertia))
+            # bic.append(BIC(fcs2d.shape[0], k, inertia))
+        else:
+            inertias.append(inertias[-1])
+            scs.append(scs[-1])
+            chs.append(chs[-1])
+            dbs.append(dbs[-1])
+            # aic.append(aic[-1])
+            # bic.append(bic[-1])
     # 绘图
-    if time_series_preop is not None:
-        plot_evaluated(steps, inertias=inertias["preop"], scs=scs["preop"], chs=chs["preop"], dbs=dbs["preop"], aic=aic["preop"], bic=bic["preop"], save_path=f"{save_path}/preop_{window_length}_{k}_state.png")
-    if time_series_postop is not None:
-        plot_evaluated(steps, inertias=inertias["postop"], scs=scs["postop"], chs=chs["postop"], dbs=dbs["postop"], aic=aic["postop"], bic=bic["postop"], save_path=f"{save_path}/postop_{window_length}_{k}_state.png")
-    if time_series_preop is not None and time_series_postop is not None:
-        plot_evaluated(steps, inertias=inertias["total"], scs=scs["total"], chs=chs["total"], dbs=dbs["total"], aic=aic["total"], bic=bic["total"], save_path=f"{save_path}/total_{window_length}_{k}_state.png")
+    # plot_evaluated(window_lengths, inertias=inertias, scs=scs, chs=chs, dbs=dbs, aic=aic, bic=bic, save_path=save_path)
+    plot_evaluated(step_sizes, inertias=inertias, scs=scs, chs=chs, dbs=dbs, aic=None, bic=None, save_path=save_path)
 
 def align(time_series:np.ndarray, length:int, start_point=None):
     """
@@ -344,32 +329,6 @@ def save_fc(fc:np.ndarray, save_path:str):
 def states2fcs(states:list, km:cluster.KMeans):
     return [km.cluster_centers_[state].reshape((116,116)) for state in states]
 
-def get_missing_state(windows_preop, windows_postop, k, save_path):
-    fcs_preop = connectome.ConnectivityMeasure(kind="correlation").fit_transform(windows_preop)
-    fcs_postop = connectome.ConnectivityMeasure(kind="correlation").fit_transform(windows_postop)
-    fcs2d_preop = fcs_preop.reshape((fcs_preop.shape[0], 13456))
-    fcs2d_postop = fcs_postop.reshape((fcs_postop.shape[0], 13456))
-    km = cluster.KMeans(k)
-    states_preop = km.fit_predict(fcs2d_preop)
-    states_postop = km.predict(fcs2d_postop)
-    fit_states_postop = km.fit_predict(fcs2d_postop)
-    plot_sates(states_preop, k, f"{save_path}/preop.png")
-    plot_sates(states_postop, k, f"{save_path}/postop.png")
-    plot_sates(fit_states_postop, k, f"{save_path}/fit_postop.png")
-    states = set(states_preop)^set(states_postop)
-    if not states:
-        return
-    state = states.pop()
-    fc = km.cluster_centers_[state].reshape((116,116))
-    # save_fc(fc, f"{save_path}/missing.png")
-    names = list(range(k))
-    names[state] = f"missing_state_{state}"
-    while states:
-        st = states.pop()
-        names[st] = f"missing_state_{st}"
-    save_fcs([fc.reshape((116,116)) for fc in km.cluster_centers_], save_path, names)
-    return fcs_preop[states_preop == state]
-
 def stats_tests(preop, postop, print_values=True):
     p_values = []
     # 参数检验
@@ -440,19 +399,22 @@ def Manhattan_distance(matrix1:np.ndarray, matrix2:np.ndarray) -> int:
     """
     return np.sum(np.abs(matrix2 - matrix1))
 
-def plot_graph_measures(measures_preop:dict, measures_postop:dict, title:str, save_path:str) -> None:
+def plot_graph_measures(measures_preop:dict, measures_postop:dict, title:str, save_path:str, ticks=False) -> None:
     """
         绘制动态功能连接中图论参数随窗口变化图。
         measures_*: {run: []}图论参数
+        ticks: Bool，是否设置0-1之间的ticks
     """
+    plt.rcParams["font.family"] = "Times New Roman"
     fig, ax = plt.subplots(2, 1, sharex=True, sharey=True)
     fig.patch.set_color("white")
-    ax[0].set_title(f"{title} preop")
-    ax[1].set_title(f"{title} postop")
+    ax[0].set_title(f"{title} pre-op session")
+    ax[1].set_title(f"{title} post-op session")
     ax[0].grid(True)
     ax[1].grid(True)
-    ax[0].set_yticks([i/10 for i in range(0, 11, 2)])
-    ax[1].set_yticks([i/10 for i in range(0, 11, 2)])
+    if ticks:
+        ax[0].set_yticks([i/10 for i in range(0, 11, 2)])
+        ax[1].set_yticks([i/10 for i in range(0, 11, 2)])
     x = 0
     for run, measures in measures_preop.items():
         ax[0].plot(range(x, x+len(measures)), measures)
@@ -466,3 +428,18 @@ def plot_graph_measures(measures_preop:dict, measures_postop:dict, title:str, sa
     plt.cla()
     plt.clf()
     plt.close("all")
+
+# 周期性检测, https://zhuanlan.zhihu.com/p/394327245
+def get_periods(series:np.ndarray, top_k_seasons:int = 3) -> np.ndarray:
+    fft_series = np.fft.fft(series)
+    power = np.abs(fft_series)
+    sample_freq = np.fft.fftfreq(fft_series.size)
+
+    pos_mask = np.where(sample_freq > 0)
+    freqs = sample_freq[pos_mask]
+    powers = power[pos_mask]
+
+    top_k_idxs = np.argpartition(powers, -top_k_seasons)[-top_k_seasons:]
+    # top_k_power = powers[top_k_idxs]
+    fft_periods = (1 / freqs[top_k_idxs]).astype(int)
+    return fft_periods
