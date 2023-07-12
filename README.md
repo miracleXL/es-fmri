@@ -14,8 +14,14 @@
 
 公开数据集已经进行过预处理，可以直接使用。
 esfmri.py 包含一些会反复用到的函数
+graph.py 包含构建复杂网络并计算图论参数的函数
 
 ### 流程
+
+研究整体流程
+![流程图](./流程图.png)
+
+#### 代码流程
 
 ```mermaid
 graph LR
@@ -24,14 +30,14 @@ graph LR
     cleaning --> slidingWindow;
     cleaning --> extract_FC;
     subgraph 静态功能连接
-    extract_FC --> ...;
+    extract_FC --> graph_;
+    graph_ --> stats;
     end
     subgraph 动态功能连接
     slidingWindow --> cluster;
     slidingWindow --> graph_dfc;
-    slidingWindow --> pca;
     cluster --> state_analysis;
-    graph_dfc --> stats;
+    state_analysis --> plot;
     end
 ```
 
@@ -39,21 +45,20 @@ graph LR
 2. 使用nilearn模块，选择合适的模板，提取时间序列并保存为pickle文件。
 3. 清理长度过短的数据
 
-动态功能连接
-> -> slidingWindow
->使用滑动窗口法拆分时间序列并按顺序保存。同时计算时间序列间的皮尔逊相关性作为动态功能连接。
-> -> cluster -> plot
->聚类并绘制状态变化。
-> -> graph_dfc -> stats -> plot
->使用图论分析复杂网络中参数变化过程，并进行统计学分析
-> -> pca -> plot
->使用pca降维并对比主成分变化
-> -> stats -> plot
->直接对动态功能连接相关性值进行统计学分析
+#### 动态功能连接
+
+ -> slidingWindow
+使用滑动窗口法拆分时间序列并按顺序保存。同时计算时间序列间的皮尔逊相关性作为动态功能连接。
+
+ -> cluster -> plot
+聚类并绘制状态变化。
+
+ -> graph_dfc
+使用图论分析复杂网络中参数变化过程，并进行统计学分析
 
 #### 静态功能连接
 
- -> extract_FC -> graph -> stats -> plot
+ -> extract_FC -> graph -> stats
 计算时间序列间的皮尔逊相关性作为功能连接。
 对功能连接矩阵进行二值化，将其作为图的邻接矩阵，使用networkx模块建立复杂网络，计算图论的各种评价参数。
 使用统计学方法评估电刺激前后参数变化是否存在明显差异。
