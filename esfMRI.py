@@ -9,6 +9,9 @@ import math
 import os
 
 atlas_labels = datasets.fetch_atlas_aal()['labels']
+plt.rcParams['font.family']=['Times New Roman']
+fontsize = 8
+plt.rcParams['font.size']=fontsize
 
 def sliceWindows(time_series, frame, interval):
     """ 切割滑动窗口 """
@@ -73,11 +76,11 @@ def plot_sates(states, k, save_path=None):
     plt.clf()
     plt.close("all")
 
-def plot_evaluated(x_axis, inertias=None, scs=None, chs=None, dbs=None, aic=None, bic=None, save_path=None):
+def plot_evaluated(x_axis, inertias=None, scs=None, chs=None, dbs=None, aic=None, bic=None, save_path=None, formate="jpg"):
     if aic is None and bic is None:
-        figi, axi = plt.subplots(2, 2, figsize=(20, 10))
+        figi, axi = plt.subplots(2, 2, figsize=(5, 4))
     else:
-        figi, axi = plt.subplots(3, 2, figsize=(20, 15))
+        figi, axi = plt.subplots(3, 2, figsize=(5, 3))
     figi.patch.set_color("white")
     if inertias is not None:
         axi[0, 0].set_title("elbow method")
@@ -98,7 +101,7 @@ def plot_evaluated(x_axis, inertias=None, scs=None, chs=None, dbs=None, aic=None
         axi[2, 1].set_title("BIC")
         axi[2, 1].plot(x_axis, bic)
     if save_path is not None:
-        figi.savefig(save_path, format="png")
+        figi.savefig(save_path, format=formate, dpi=300)
         plt.cla()
         plt.clf()
         plt.close("all")
