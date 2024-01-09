@@ -10,8 +10,8 @@ import os
 
 atlas_labels = datasets.fetch_atlas_aal()['labels']
 plt.rcParams['font.family']=['Times New Roman']
-fontsize = 8
-plt.rcParams['font.size']=fontsize
+# fontsize = 8
+# plt.rcParams['font.size']=fontsize
 
 def sliceWindows(time_series, frame, interval):
     """ 切割滑动窗口 """
@@ -20,7 +20,7 @@ def sliceWindows(time_series, frame, interval):
         frame: int, 每帧窗口尺寸
         interval: int, 窗口间步长间隔
     """
-    if len(time_series) < frame:
+    if len(time_series) < frame or interval < 1:
         return [time_series]
     windows = []
     l, r = 0, frame
@@ -76,32 +76,46 @@ def plot_sates(states, k, save_path=None):
     plt.clf()
     plt.close("all")
 
-def plot_evaluated(x_axis, inertias=None, scs=None, chs=None, dbs=None, aic=None, bic=None, save_path=None, formate="jpg"):
+def plot_evaluated(x_axis, inertias=None, scs=None, chs=None, dbs=None, aic=None, bic=None, save_path=None, formate="jpg", x_label="Step"):
+    plt.rcParams['font.family']=['Times New Roman']
+    fontsize = 18
+    plt.rcParams['font.size']=fontsize
+
     if aic is None and bic is None:
-        figi, axi = plt.subplots(2, 2, figsize=(5, 4))
+        figi, axi = plt.subplots(2, 2, figsize=(15, 10))
     else:
         figi, axi = plt.subplots(3, 2, figsize=(5, 3))
     figi.patch.set_color("white")
+    # 调整子图间距
+    figi.subplots_adjust(wspace=0.3, hspace=0.3)
     if inertias is not None:
-        axi[0, 0].set_title("elbow method")
+        axi[0, 0].set_ylabel("Inertias")
+        axi[0, 0].set_xlabel(x_label)
         axi[0, 0].plot(x_axis, inertias)
     if scs is not None:
-        axi[0, 1].set_title("Silhouette Coefficient")
+        axi[0, 1].set_ylabel("Silhouette Coefficient")
+        axi[0, 1].set_xlabel(x_label)
+        # axi[0, 1].set_ylim(0.25, 0.3)
         axi[0, 1].plot(x_axis, scs)
     if chs is not None:
-        axi[1, 0].set_title("calinski harabasz")
+        axi[1, 0].set_ylabel("Calinski Harabasz Index")
+        axi[1, 0].set_xlabel(x_label)
         axi[1, 0].plot(x_axis, chs)
     if dbs is not None:
-        axi[1, 1].set_title("davies bouldin")
+        axi[1, 1].set_ylabel("Davies Bouldin Index")
+        axi[1, 1].set_xlabel(x_label)
+        # axi[1, 1].set_ylim(1.4, 1.45)
         axi[1, 1].plot(x_axis, dbs)
     if aic is not None:
-        axi[2, 0].set_title("AIC")
+        axi[2, 0].set_ylabel("AIC")
+        axi[2, 0].set_xlabel(x_label)
         axi[2, 0].plot(x_axis, aic)
     if bic is not None:
-        axi[2, 1].set_title("BIC")
+        axi[2, 1].set_ylabel("BIC")
+        axi[2, 1].set_xlabel(x_label)
         axi[2, 1].plot(x_axis, bic)
     if save_path is not None:
-        figi.savefig(save_path, format=formate, dpi=300)
+        figi.savefig(save_path, format=formate, dpi=600)
         plt.cla()
         plt.clf()
         plt.close("all")
@@ -121,8 +135,8 @@ def clustering_evaluate(windows, ks, save_path):
     scs = []
     chs = []
     dbs = []
-    aic = []
-    bic = []
+    # aic = []
+    # bic = []
     fcs2d = fcs.reshape((fcs.shape[0], 13456))
     for k in ks:
         if k < fcs2d.shape[0]:
@@ -131,17 +145,19 @@ def clustering_evaluate(windows, ks, save_path):
             scs.append(metrics.silhouette_score(fcs2d, states)) # 轮廓系数
             chs.append(metrics.calinski_harabasz_score(fcs2d, states)) # CH，方差比
             dbs.append(metrics.davies_bouldin_score(fcs2d, states)) # DB
-            aic.append(AIC(fcs2d.shape[0], k, inertia))
-            bic.append(BIC(fcs2d.shape[0], k, inertia))
+            # aic.append(AIC(fcs2d.shape[0], k, inertia))
+            # bic.append(BIC(fcs2d.shape[0], k, inertia))
         else:
             inertias.append(inertias[-1])
             scs.append(scs[-1])
             chs.append(chs[-1])
             dbs.append(dbs[-1])
-            aic.append(aic[-1])
-            bic.append(bic[-1])
+            # aic.append(aic[-1])
+            # bic.append(bic[-1])
     # 绘图
-    plot_evaluated(ks, inertias=inertias, scs=scs, chs=chs, dbs=dbs, aic=aic, bic=bic, save_path=save_path)
+    # plot_evaluated(ks, inertias=inertias, scs=scs, chs=chs, dbs=dbs, aic=aic, bic=bic, save_path=save_path)
+    plot_evaluated(ks, inertias=inertias, scs=scs, chs=chs, dbs=dbs, aic=None, bic=None, save_path=save_path)
+    return [inertias, scs, chs, dbs]
 
 def windows_evaluate(data, subid, window_lengths, step, k, save_path):
     """
@@ -198,8 +214,9 @@ def windows_evaluate(data, subid, window_lengths, step, k, save_path):
     # 绘图
     # plot_evaluated(window_lengths, inertias=inertias, scs=scs, chs=chs, dbs=dbs, aic=aic, bic=bic, save_path=save_path)
     plot_evaluated(window_lengths, inertias=inertias, scs=scs, chs=chs, dbs=dbs, aic=None, bic=None, save_path=save_path)
+    return [inertias, scs, chs, dbs]
 
-def step_evaluate(data, subid, window_length, step_sizes, k, save_path):
+def step_evaluate(data, subid, window_length, step_sizes, k, save_path, TR_as_axis=True):
     """
     评估窗口尺寸对聚类效果的影响。
     data: dict, 所有数据的字典
@@ -217,15 +234,25 @@ def step_evaluate(data, subid, window_length, step_sizes, k, save_path):
     # aic = []
     # bic = []
     for step in step_sizes:
+        if step == 0:
+            step = 1
         windows = []
         if subid is None:
             for subid in data:
                 for run, items in data[subid]["ses-preop"].items():
+                    if TR_as_axis:
+                        intervalFrame = step
+                    else:
+                        intervalFrame = math.ceil(step/items["TR"])
                     preopFrame = math.ceil(window_length/items["TR"])
-                    windows += sliceWindows(items["time_series"], preopFrame, step)
+                    windows += sliceWindows(items["time_series"], preopFrame, intervalFrame)
                 for run, items in data[subid]["ses-postop"].items():
+                    if TR_as_axis:
+                        intervalFrame = step
+                    else:
+                        intervalFrame = math.ceil(step/items["TR"])
                     postopFrame = math.ceil(window_length/items["TR"])
-                    windows += sliceWindows(items["time_series"], postopFrame, step)
+                    windows += sliceWindows(items["time_series"], postopFrame, intervalFrame)
         else:
             for run, items in data[subid]["ses-preop"].items():
                 preopFrame = math.ceil(window_length/items["TR"])
@@ -233,11 +260,15 @@ def step_evaluate(data, subid, window_length, step_sizes, k, save_path):
             for run, items in data[subid]["ses-postop"].items():
                 postopFrame = math.ceil(window_length/items["TR"])
                 windows += sliceWindows(items["time_series"], postopFrame, step)
-        fcs = connectome.ConnectivityMeasure(kind="correlation").fit_transform(windows)
+        tmp = connectome.ConnectivityMeasure(kind="correlation").fit_transform(windows)
         del windows
-        fcs = fcs.reshape((fcs.shape[0], 13456))
+        fcs = tmp.reshape((tmp.shape[0], 13456))
+        del tmp
         if k < fcs.shape[0]:
-            center, states, inertia = cluster.k_means(fcs, k)
+            km = cluster.KMeans(k, n_init=10)
+            # km.fit(fcs)
+            states = km.fit_predict(fcs)
+            inertia = km.inertia_
             inertias.append(inertia) # 肘点法
             scs.append(metrics.silhouette_score(fcs, states)) # 轮廓系数
             chs.append(metrics.calinski_harabasz_score(fcs, states)) # CH，方差比
@@ -245,15 +276,24 @@ def step_evaluate(data, subid, window_length, step_sizes, k, save_path):
             # aic.append(AIC(fcs2d.shape[0], k, inertia))
             # bic.append(BIC(fcs2d.shape[0], k, inertia))
         else:
-            inertias.append(inertias[-1])
-            scs.append(scs[-1])
-            chs.append(chs[-1])
-            dbs.append(dbs[-1])
+            inertias.append(0)
+            scs.append(0)
+            chs.append(0)
+            dbs.append(0)
+            # inertias.append(inertias[-1])
+            # scs.append(scs[-1])
+            # chs.append(chs[-1])
+            # dbs.append(dbs[-1])
             # aic.append(aic[-1])
             # bic.append(bic[-1])
+    step_sizes.pop(0)
+    inertias.pop(0)
+    scs.pop(0)
+    chs.pop(0)
+    dbs.pop(0)
     # 绘图
-    # plot_evaluated(window_lengths, inertias=inertias, scs=scs, chs=chs, dbs=dbs, aic=aic, bic=bic, save_path=save_path)
     plot_evaluated(step_sizes, inertias=inertias, scs=scs, chs=chs, dbs=dbs, aic=None, bic=None, save_path=save_path)
+    return [inertias, scs, chs, dbs]
 
 def align(time_series:np.ndarray, length:int, start_point=None):
     """
@@ -402,32 +442,55 @@ def Manhattan_distance(matrix1:np.ndarray, matrix2:np.ndarray) -> int:
     """
     return np.sum(np.abs(matrix2 - matrix1))
 
-def plot_graph_measures(measures_preop:dict, measures_postop:dict, title:str, save_path:str, ticks=False) -> None:
+def plot_graph_measures(measures_preop:dict, measures_postop:dict, title:str, subid:str, save_dir:str, ticks=False, legend=False) -> None:
     """
         绘制动态功能连接中图论参数随窗口变化图。
         measures_*: {run: []}图论参数
         ticks: Bool，是否设置0-1之间的ticks
     """
     plt.rcParams["font.family"] = "Times New Roman"
-    fig, ax = plt.subplots(2, 1, sharex=True, sharey=True)
-    fig.patch.set_color("white")
-    ax[0].set_title(f"{title} pre-op session")
-    ax[1].set_title(f"{title} post-op session")
+    fontsize = 18
+    plt.rcParams['font.size']=fontsize
+    fig, ax = plt.subplots(2, 1, figsize=(8, 8), sharex=False, sharey=True)
+    fig.subplots_adjust(wspace=0.5, hspace=0.5)
     ax[0].grid(True)
     ax[1].grid(True)
+    ax[0].set_xlabel("Time (s)")
+    ax[1].set_xlabel("Time (s)")
+    ax[0].set_ylabel(title.replace("_", " ").title())
+    ax[1].set_ylabel(title.replace("_", " ").title())
+    if title == "clustering":
+        ax[0].set_ylabel("Clustering Coefficient")
+        ax[1].set_ylabel("Clustering Coefficient")
+    # fig, ax = plt.subplots()
+    # ax.grid(True)
+    # ax.set_xlabel("time (s)")
+    # ax.set_ylabel(title)
     if ticks:
-        ax[0].set_yticks([i/10 for i in range(0, 11, 2)])
-        ax[1].set_yticks([i/10 for i in range(0, 11, 2)])
+        # ax.set_yticks([i/10 for i in range(0, 11, 2)])
+        if title == "degree_assortativity_coefficient":
+            ax[0].set_ylim(-1, 1)
+            ax[1].set_ylim(-1, 1)
+            # ax[0].set_yticks(np.linspace(-1, 1, 5))
+            # ax[1].set_yticks(np.linspace(-1, 1, 5))
+        elif title != "k_core":
+            ax[0].set_ylim(0, 1)
+            ax[1].set_ylim(0, 1)
+            # ax[0].set_yticks(np.linspace(0, 1, 5))
+            # ax[1].set_yticks(np.linspace(0, 1, 5))
     x = 0
     for run, measures in measures_preop.items():
-        ax[0].plot(range(x, x+len(measures)), measures)
-        # x += len(measures)
-    fig.savefig(save_path, format="png")
-    x = 0
+        # ax.plot(range(x, x+len(measures)), measures)
+        ax[0].plot(range(x, x+len(measures)), measures, label=run)
+    extent = ax[0].get_tightbbox(fig.canvas.get_renderer()).transformed(fig.dpi_scale_trans.inverted())
+    extent = extent.expanded(1.1, 1.3) if title == "degree_assortativity_coefficient" else extent.expanded(1.1, 1.2)
+    fig.savefig(f"{save_dir}/{subid}_preop.png", format="png", bbox_inches = extent, dpi=600)
     for run, measures in measures_postop.items():
-        ax[1].plot(range(x, x+len(measures)), measures)
-        # x += len(measures)
-    fig.savefig(save_path, format="png")
+        # ax.plot(range(x, x+len(measures)), measures)
+        ax[1].plot(range(x, x+len(measures)), measures, label=run)
+    extent = ax[1].get_tightbbox(fig.canvas.get_renderer()).transformed(fig.dpi_scale_trans.inverted())
+    extent = extent.expanded(1.1, 1.3) if title == "degree_assortativity_coefficient" else extent.expanded(1.1, 1.2)
+    fig.savefig(f"{save_dir}/{subid}_postop.png", format="png", bbox_inches = extent, dpi=600)
     plt.cla()
     plt.clf()
     plt.close("all")
